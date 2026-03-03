@@ -86,10 +86,11 @@ export default function App() {
         <section className="hero container">
           <div className="hero-copy reveal">
             <p className="eyebrow">An AI Powered Infrastructure for Africa's Diagnostic Grid</p>
-            <h1>From guesswork to precision care.</h1>
+            <h1>Accessible Diagnositics for Every Community</h1>
             <p className="lead">
-              Oscar Labs is building the invisible technology backbone that helps community pharmacies and clinics deliver
-              high-accuracy diagnostics without owning expensive lab equipment.
+              We are building an invisible technology backbone. From urban centers to underserved communities, we are
+              building an AI-Powered Distribution Diagnositics Network, powering access and early detection for a billon
+              lives and beyond.
             </p>
             <div className="hero-stats">
               <article>
@@ -175,7 +176,7 @@ export default function App() {
       </main>
 
       <footer className="footer container">
-        <p>Oscar Labs • Starting in Nigeria, scaling across Africa.</p>
+        <p>Oscar Labs - Starting in Nigeria, scaling across Africa.</p>
       </footer>
     </>
   );
