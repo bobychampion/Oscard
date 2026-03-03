@@ -7,6 +7,9 @@
 /website.zip
 
 # Website dependencies and runtime artifacts
+node_modules/
+devserver*.log
+.vite/
 website/node_modules/
 website/devserver*.log
 website/.vite/
