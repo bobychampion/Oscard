@@ -1,0 +1,13 @@
+# Root non-website artifacts
+/extracted/
+/temp_doc/
+/ChatGPT Image*.png
+/Oscar Labs Executive Summary.docx
+/doc_text.xml
+/website.zip
+
+# Website dependencies and runtime artifacts
+website/node_modules/
+website/devserver*.log
+website/.vite/
+website/node_modules/.vite/
