@@ -13,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
+  <!-- Booking CTAs use #contact. Swap href for Calendly or another scheduler when ready. -->
 </head>
 
 <body>
@@ -25,11 +26,14 @@
         <img class="brand-logo" src="./assets/images/oscarD-logo-header.png"
           style="filter: invert(1) hue-rotate(180deg);" alt="Oscar Diagnostics logo" />
       </a>
-      <div class="nav-links">
-        <a href="#challenge" class="magnetic-link">Challenge</a>
-        <a href="#solution" class="magnetic-link">Solution</a>
-        <a href="#financing" class="magnetic-link">DNPL</a>
-        <a href="#vision" class="magnetic-link">Vision</a>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="#challenge" class="magnetic-link">Challenge</a>
+          <a href="#solution" class="magnetic-link">Solution</a>
+          <a href="#financing" class="magnetic-link">DNPL</a>
+          <a href="#vision" class="magnetic-link">Vision</a>
+        </div>
+        <a href="#contact" class="btn-cta btn-cta--nav magnetic-link">Book appointment</a>
       </div>
     </nav>
   </header>
@@ -43,6 +47,10 @@
           Oscar Labs is building the invisible technology backbone that helps community pharmacies and clinics deliver
           high-accuracy diagnostics without owning expensive lab equipment.
         </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn-cta magnetic-link">Book an appointment</a>
+          <a href="#solution" class="btn-cta btn-cta--outline magnetic-link">How it works</a>
+        </div>
         <div class="hero-stats">
           <article>
             <h3><span class="counter" data-count="80">0</span>%+</h3>
@@ -92,6 +100,10 @@
           </p>
         </article>
       </div>
+      <div class="section-cta reveal">
+        <p>Bring accredited diagnostics to your community—start with a short planning call.</p>
+        <a href="#contact" class="btn-cta magnetic-link">Book a consultation</a>
+      </div>
     </section>
 
     <section id="solution" class="container section reveal">
@@ -127,6 +139,17 @@
           <img src="./assets/images/pharmacy.png" alt="Community pharmacy in Nigeria serving patients" />
         </div>
       </div>
+      <div class="cta-strip reveal">
+        <div class="cta-strip-inner">
+          <div class="cta-strip-copy">
+            <p class="eyebrow" style="margin-bottom: 0.5rem;">For pharmacies &amp; clinics</p>
+            <h3 class="cta-strip-title">Schedule a Ghost Lab onboarding session</h3>
+            <p class="cta-strip-lead">We walk through sample flow, turnaround times, and how Oscar fits your patient
+              volume.</p>
+          </div>
+          <a href="#contact" class="btn-cta btn-cta--light magnetic-link">Book onboarding</a>
+        </div>
+      </div>
     </section>
 
     <section id="labs" class="container section">
@@ -153,6 +176,9 @@
             alt="Composition of vaccine and lab equipment" />
         </div>
       </div>
+      <p class="labs-cta reveal text-center">
+        <a href="#contact" class="btn-cta btn-cta--outline magnetic-link">Request a lab tour or sample pickup walkthrough</a>
+      </p>
     </section>
 
     <section id="financing" class="container section reveal">
@@ -176,6 +202,10 @@
             typical digital lending while expanding patient access.
           </p>
         </article>
+      </div>
+      <div class="section-cta section-cta--soft reveal">
+        <p>Need a test or payment options? Book a quick call with our patient support team.</p>
+        <a href="#contact" class="btn-cta magnetic-link">Book patient appointment</a>
       </div>
     </section>
 
@@ -215,14 +245,18 @@
           healthcare across Africa.
         </p>
       </div>
+      <div class="vision-cta reveal">
+        <a href="#contact" class="btn-cta magnetic-link">Book a strategy call</a>
+        <a href="#contact" class="btn-cta btn-cta--outline magnetic-link">Submit an enquiry</a>
+      </div>
     </section>
 
     <section id="contact" class="container section reveal">
       <div class="section-head text-center">
         <p class="eyebrow">Get in Touch</p>
         <h2>Work with Oscar Labs</h2>
-        <p class="lead" style="margin: 0 auto;">Select your profile below to help us direct your enquiry to the right
-          team.</p>
+        <p class="lead" style="margin: 0 auto;">Book an appointment, partner consult, or enquiry—select your profile
+          below so we route you to the right team.</p>
       </div>
 
       <div class="contact-form-wrapper">
@@ -419,6 +453,9 @@
 
   <footer class="footer container">
     <p>Oscar Labs • Starting in Nigeria, scaling across Africa.</p>
+    <p class="footer-book-row">
+      <a href="#contact" class="btn-cta btn-cta--footer magnetic-link">Book an appointment</a>
+    </p>
   </footer>
 
   <script src="./main.js"></script>
