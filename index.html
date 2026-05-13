@@ -23,7 +23,7 @@
       </a>
       <div class="nav-links" id="nav-links">
         <a href="#" class="nav-link active">Home</a>
-        <a href="#about" class="nav-link">About Us</a>
+        <a href="./about.html" class="nav-link">About Us</a>
         <a href="#tests" class="nav-link">Tests &amp; Packages</a>
         <a href="https://app.oscardiagnostics.com/results" class="nav-link" target="_blank" rel="noopener">Results</a>
         <a href="#contact" class="nav-link">Contact Us</a>
@@ -37,6 +37,15 @@
 
   <!-- ===== HERO ===== -->
   <section class="hero">
+
+    <!-- Layered atmospheric lighting -->
+    <div class="hero-atmosphere" aria-hidden="true">
+      <div class="hero-glow hero-glow--main"></div>
+      <div class="hero-glow hero-glow--boundary"></div>
+      <div class="hero-glow hero-glow--green"></div>
+      <div class="hero-glow hero-glow--rays"></div>
+    </div>
+
     <div class="container hero-inner">
       <div class="hero-copy reveal">
         <h1>Accurate Results.<br><span class="text-green">Better Health.</span></h1>
@@ -58,10 +67,12 @@
           </div>
         </div>
       </div>
+
       <div class="hero-image reveal delay-1">
         <img src="./assets/images/homepage.png" alt="Oscar Diagnostics lab professional at work" />
       </div>
     </div>
+
   </section>
 
   <!-- ===== FEATURES STRIP ===== -->
@@ -151,6 +162,47 @@
     </div>
   </section>
 
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-strip" id="contact">
+    <div class="container">
+      <div class="section-head text-center reveal">
+        <h2>Contact Us</h2>
+        <div class="underline-bar"></div>
+      </div>
+      <div class="contact-strip-grid">
+        <div class="contact-strip-card reveal">
+          <div class="contact-strip-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.63 19.79 19.79 0 013 3.18 2 2 0 014.11 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+          </div>
+          <h3>Phone</h3>
+          <p>+234 817 725 3975</p>
+        </div>
+        <div class="contact-strip-card reveal delay-1">
+          <div class="contact-strip-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <h3>Email</h3>
+          <p>info@oscardiagnostics.com</p>
+        </div>
+        <div class="contact-strip-card reveal delay-2">
+          <div class="contact-strip-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <h3>Location</h3>
+          <p>15 Rumuola Road, Port Harcourt, Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ===== CTA BANNER ===== -->
   <section class="cta-banner">
     <div class="container cta-banner-inner reveal">
@@ -163,7 +215,7 @@
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer class="footer" id="contact">
+  <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-brand">
         <img src="./assets/images/oscarD-logo-header.png" alt="Oscar Diagnostics" class="footer-logo" />
@@ -172,7 +224,7 @@
       <div class="footer-col">
         <h4>Quick Links</h4>
         <ul>
-          <li><a href="#about">About Us</a></li>
+          <li><a href="./about.html">About Us</a></li>
           <li><a href="#tests">Tests &amp; Packages</a></li>
           <li><a href="https://app.oscardiagnostics.com/results" target="_blank" rel="noopener">Results</a></li>
           <li><a href="#contact">Contact Us</a></li>
@@ -199,7 +251,7 @@
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
               <circle cx="12" cy="10" r="3"/>
             </svg>
-            No. 1 Oscar Diagnostic Drive, Off Akintola Road, Ilorin, Kwara State.
+            15 Rumuola Road, Port Harcourt, Nigeria
           </li>
         </ul>
       </div>
